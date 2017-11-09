@@ -1,0 +1,63 @@
+* {
+	margin: 1%;
+	
+}
+
+.grandparent {
+	background-color: salmon;
+
+}
+
+.parent {
+	background-color: skyblue;
+
+}
+
+div {
+	padding: 20px;
+
+}
+
+body {
+	font-family: 'Vollkorn SC', serif;
+}
+
+
+h1 {
+	position: relative;
+	color: white;
+	font-size: 50px;
+	
+
+}
+
+h2 {
+	position: relative;
+	color: gray;
+	font-size: 20px;
+	top: -25px;
+	padding-bottom: 20px;
+
+}
+
+blockquote {
+	color: gray;
+	font-size: 15px;
+	margin-left: 60px;
+
+}
+p {
+	position: static;
+	text-indent: 50px;
+	text-align: justify;
+}
+
+input[name="firstname"] {
+	margin-right: 2px;
+
+}
+
+footer {
+	text-align: center;
+	color: orange;
+}
