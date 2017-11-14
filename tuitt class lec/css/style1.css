@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+.menu {
+	background-color: salmon;
+	height: 200px;
+}
+
+.container {
+	background-color: lightblue;
+
+}
+
+.page {
+	width: 900px;
+	margin: 0;
+}
+
+.sidebar {
+	background-color: orange;
+	height: 300px;
+	width: 200px;
+	float: left;
+}
+
+.content {
+	width: 500px;
+	float: left;
+}
