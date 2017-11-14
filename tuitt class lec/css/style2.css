@@ -139,7 +139,7 @@ input[value=Add] {
 	clear: both;
 	background-color: black;
 	width: 700px;
-	height: 200px;
+	height: 250px;
 }
 
 
@@ -148,24 +148,62 @@ input[value=Add] {
 	width: 50px;
 	background-color: gray;
 	float: left;
-	margin: 10px 1.16%;
+	margin: 20px 1.16%;
 	padding: 10px;
 	position: relative;
 }
 
 .username {
 	width: 600px;
-	height: 100px;
-	margin: 1px;
+	margin-top: 0.5px;
 	left: 50px;
 	position: relative;
 
 }
 
 .comment-with-text {
+	width: 600px;
  	overflow: hidden;
  	position: relative;
  	text-align: justify;
- 	margin-right: -1em;
- 	padding-right: 30px;
+ 	left: 50px;
 }
+
+.button > a {
+	position: relative;
+	top: 70px;
+}
+
+
+.column3 {
+	height: 50px;
+	width: 50px;
+	background-color: gray;
+	float: left;
+	margin: 100px 1.16%;
+	padding: 10px;
+	position: relative;
+}
+
+.username1 {
+	width: 600px;
+	margin-top: 0.5px;
+	left: 50px;
+	position: relative;
+
+}
+
+.comment-with-text {
+	width: 500px;
+ 	overflow: hidden;
+ 	position: relative;
+ 	text-align: justify;
+ 	left: 50px;
+}
+
+.button1 > a {
+	position: relative;
+	top: 150px;
+}
+
+
