@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Merriweather", Arial, sans-serif;
+
+}
+
+body {
+	background-image: url("../img1/ocean.jpg");
+	margin: 10%;
+}
+
+.wrapper {
+	margin: 18%;
+}
+
+
+h1 {
+	text-align: center;
+
+
+}
+
+h2 {
+	text-align: center;
+
+}
+
+/*#1*/
+
+.container {
+	clear: both;
+	width: 680px;
+	height: 340px;
+	background-color: salmon;
+	float: left;
+	position: relative;
+	margin: 10px;
+	border-radius: 10%;
+}
+
+
+.avatar > img {
+	width: 150px;
+	height: 150px;
+	float: left;
+	border-radius: 20%;
+	position: relative;
+	margin: 10px;
+}
+
+
+/*#2*/
+
+.container1 {
+	clear: both;
+	width: 700px;
+	height: 550px;
+	padding: 10px;
+	float: left;
+	position: relative;
+	background-color: salmon;
+	border-radius: 10%;
+}
+
+.leftside {
+	width: 600px;
+	float: left;
+	position: relative;
+}
+
+.whiteborder {
+	border: 1px solid white;
+	width: 150px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	float: left;
+	position: relative;
+}
+
+.column > img {
+	background-color: #FFDEAD;
+	width: 138px;
+	height: 100px;
+
+}
+
+.column1 > p {
+	text-align: center;
+	margin: 10px;
+}
+
+/*#3*/
+
+.container2 {
+	clear: both;
+	width: 700px;
+	height: 300px;
+	background-color: salmon;
+	float: left;
+	position: relative;
+	margin: 10px;
+}
+
+.container2 > h2 {
+	text-align: left;
+	margin: 10px;
+
+}
+
+.column2 > img {
+	width: 150px;
+	height: 150px;
+	float: left;
+	position: relative;
+	background-color: #FFDEAD;
+	margin: 10px;
+}
+
+/*#4*/
+
+.container3 {
+	clear: both;
+	width: 700px;
+	height: 300px;
+	background-color: salmon;
+	float: left;
+	position: relative;
+	margin: 10px;
+}
+
+
+.container3 > h2 {
+	text-align: left;
+	margin: 10px;
+
+}
+
+.column3 {
+	width: 155px;
+	height: 300px;
+	float: left;
+	position: relative;
+	margin: 10px;
+}
+
+.column3 > img {
+	width: 150px;
+	height: 150px;
+	float: left;
+	position: relative;
+}
+
+/*#5*/
+
+.container4 {
+	
+}
