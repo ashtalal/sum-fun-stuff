@@ -10,6 +10,11 @@
 body {
 	background-image: url("../img1/ocean.jpg");
 	margin: 10%;
+
+}
+
+.locator > a {
+	padding: 10px;
 }
 
 .wrapper {
@@ -34,7 +39,7 @@ h2 {
 	clear: both;
 	width: 680px;
 	height: auto;
-	background-color: salmon;
+	background-color: lightblue;
 	float: left;
 	position: relative;
 	margin: 10px;
@@ -61,7 +66,7 @@ h2 {
 	padding: 10px;
 	float: left;
 	position: relative;
-	background-color: salmon;
+	background-color: lightblue;
 	border-radius: 10%;
 }
 
@@ -99,7 +104,7 @@ h2 {
 	clear: both;
 	width: 700px;
 	height: auto;
-	background-color: salmon;
+	background-color: lightblue;
 	float: left;
 	position: relative;
 	margin: 10px;
@@ -126,7 +131,7 @@ h2 {
 	clear: both;
 	width: 700px;
 	height: auto;
-	background-color: salmon;
+	background-color: lightblue;
 	float: left;
 	position: relative;
 	margin: 10px;
@@ -160,7 +165,7 @@ h2 {
 	clear: both;
 	width: 700px;
 	height: auto;
-	background-color: salmon;
+	background-color: lightblue;
 	float: left;
 	position: relative;
 	padding: 10px;
@@ -220,7 +225,7 @@ h2 {
 	clear: both;
 	width: 700px;
 	height: auto;
-	background-color: salmon;
+	background-color: lightblue;
 	float: left;
 	position: relative;
 	padding: 10px;
@@ -305,11 +310,20 @@ h2 {
 
 /*#7*/
 
+.square {
+	clear: both;
+	width: 700px;
+	height: 150px;
+	float: left;
+	position: relative;
+
+}
+
 .container6 {
 	clear: both;
 	width: 500px;
 	height: auto;
-	background-color: salmon;
+	background-color: lightblue;
 	float: left;
 	position: relative;
 	padding: 10px;
@@ -342,11 +356,20 @@ h2 {
 /*#8*/
 
 
+.square1 {
+	clear: both;
+	width: 700px;
+	height: 150px;
+	float: left;
+	position: relative;
+
+}
+
 .container7 {
 	clear: both;
 	width: 500px;
 	height: auto;
-	background-color: salmon;
+	background-color: lightblue;
 	float: left;
 	position: relative;
 	padding: 10px;
@@ -381,7 +404,7 @@ h2 {
 	clear: both;
 	width: 700px;
 	height: auto;
-	background-color: salmon;
+	background-color: lightblue;
 	float: left;
 	position: relative;
 	padding: 10px;
@@ -425,25 +448,26 @@ h2 {
 	clear: both;
 	width: 1000px;
 	height: auto;
-	background-color: salmon;
+	background-color: lightblue;
 	float: left;
 	position: relative;
 	padding: 10px;
+
 }
 
 .left6 {
-	width: 60%
+	width: 58%;
 	height: auto;
 	float: left;
 	position: relative;
-
 }
 
 .right6 {
-	width: 40%
+	width: 40%;
 	height: auto;
 	float: left;
 	position: relative;
+	margin-right: 10px;
 }
 
 .whiteborder1 {
@@ -453,7 +477,85 @@ h2 {
 	padding: 5px;
 	margin: 10px;
 	float: left;
+	position: relative;	
+}
+
+.whiteborder1 > p {
+	text-align: center;
+}
+
+.column10 {
+	background-color: #FFDEAD;
+    width: 138px;
+    height: 100px;
+}
+
+.column10 > img {
+	width: 138px;
+	height: 100px;
+	float: left;
 	position: relative;
 }
 
 
+.column11 {
+	width: 410px;
+	height: 220px;
+	float: left;
+	position: relative;
+
+}
+
+.column11 > img {
+	width: 410px;
+	height: 200px;
+	float: left;
+	position: relative;
+
+}
+
+.column12 > a {
+	padding: 10px;
+}
+
+.column13 {
+	width: 420px;
+	height: auto;
+	float: left;
+	position: relative;
+
+}
+
+.column14 {
+	width: 150px;
+	height: 100px;
+	background-color: #FFDEAD;
+	float: left;
+	position: relative;
+	margin-bottom: 2px;
+	margin-right: 10px;
+
+}
+
+.column14 > img {
+	width: 150px;
+	height: 100px;
+	float: left;
+	position: relative;
+}
+
+.text3 > p {
+	font-size: 12px;
+}
+
+.column15 > p {
+	text-align: center;
+	margin: 10px;
+}
+
+
+
+footer {
+	text-align: center;
+	font-size: 24px;
+}
