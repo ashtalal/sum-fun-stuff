@@ -559,3 +559,9 @@ footer {
 	text-align: center;
 	font-size: 24px;
 }
+
+footer > img {
+	width: 150px;
+	height: 150px;
+	text-align: center;
+}
