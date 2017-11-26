@@ -25,7 +25,7 @@ body {
 }
 
 .header {
-	min-height: 200px;
+	min-height: 480px;
 }
 
 .header > .col {
@@ -36,7 +36,7 @@ body {
 }
 
 
-.col > h1,h3 {
+.col > h1,h3,h4,h5 {
 	text-align: center;
 	letter-spacing: 2px;
 
@@ -47,7 +47,7 @@ body {
 	font-size: 18px;
 	font-family: Arial;
 	text-decoration: underline;
-	margin-bottom: 30px;
+	margin-bottom: 150px;
 	color: white;
 }
 
@@ -55,8 +55,19 @@ body {
 	font-family: 'alba';
 	font-size: 40px;
 	margin-bottom: 10px;
+	margin-top: 100px;
 	color: yellow;
 	font-weight: bolder;
+}
+
+.col > h4, h5 {
+	color: white;
+	font-family: serif;
+	font-style: italic;
+}
+
+.col > h5 {
+	margin-bottom: 70px;
 }
 
 .header > .nav {
@@ -277,6 +288,10 @@ tablet or medium sized devices
 	.col-sm-12 {
 		width: 100%;
 	}
+
+	.main > .sidebar {
+		height: 200px;
+	}
 }
 
 .article {
@@ -287,6 +302,7 @@ tablet or medium sized devices
 
 .footer > .col {
 	text-align: center;
+	margin: 3px;
 }
 
 .col > a {
