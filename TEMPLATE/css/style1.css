@@ -13,7 +13,11 @@
 body {
 	background-image: url('../img/souldance.jpg');
 	background-attachment: fixed;
-	opacity: 0.8;
+	opacity: 0.9;
+
+}
+
+embed {
 
 }
 
@@ -68,6 +72,7 @@ body {
 
 .col > h5 {
 	margin-bottom: 70px;
+	text-indent: 60px;
 }
 
 .header > .nav {
@@ -81,6 +86,7 @@ body {
 
 .nav > a {
 	font-weight: bold;
+	font-family: 'alba';
 	font-size: 16px;
 	color: white;
 	padding: 40px;
@@ -91,6 +97,7 @@ body {
 .main {
 	background-color: lightgray;
 	min-height: 700px;
+	clear: both;
 }
 
 .footer {
@@ -294,8 +301,98 @@ tablet or medium sized devices
 	}
 }
 
+.column1 {
+	width: 206px;
+	height: auto;
+	margin-top: 40px;
+	margin-left: 40px;
+	background-color: white;
+	border: 3px solid white;
+	float: left;
+	position: relative;
+}
+
+.column1 > img[src*="blackdancing"] {
+	width: 200px;
+	height: 300px;
+	border-collapse: collapse;
+}
+
+.column1 > img[src*="soulsing"] {
+	width: 200px;
+	height: 150px;
+	border-collapse: collapse;
+
+}
+
+.column2 {
+	width: 206px;
+	height: auto;
+	margin-top: 40px;
+	background-color: white;
+	border: 3px solid white;
+	float: left;
+	position: relative;
+}
+
+.column2 > img[src*="sax"] {
+	width: 200px;
+	height: 150px;
+
+}
+
+.column2 > img[src*="blackdancing1"] {
+	width: 200px;
+	height: 300px;
+	
+}
+
+/*.column3 {
+	width: 400;
+	height: auto;
+	margin-left: 40px;
+	border-collapse: collapse;
+
+}
+
+.column3 > img[src*="soulband"] {
+	width: 411px;
+	height: 160px;
+	background-color: white;
+	border: 3px solid white;
+
+}*/
+
+.text1 {
+	width: 310px;
+	height: auto;
+	float: left;
+	margin-top: 45px;
+	margin-left: 20px;
+
+}
+
+.text1 > h2 {
+	margin-bottom: 40px;
+	font-size: 28px;
+}
+
+.text1 > p {
+	text-indent: 30px;
+	margin-bottom: 10px;
+	font-family: Arial;
+}
+
+.text1 > a {
+	font-size: 12px;
+	margin-left: 170px;
+}
+
+
+
+
 .article {
-	background-color: gray;
+	background-color: lightgreen;
 	border: 3px solid black;
 	height: 201px;
 }
