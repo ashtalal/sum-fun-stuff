@@ -1,0 +1,226 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+@font-face {
+	font-family: 'alba';
+	src: url('../fonts/Alba.TTF');
+}
+
+body {
+	background-image: url('../img/souldance.jpg');
+	background-attachment: fixed;
+	opacity: 0.9;
+
+}
+
+embed {
+
+}
+
+.container-fluid {
+	width: 93%;
+	height: auto;
+	margin: 0 auto;
+	background-color: #000;
+}
+
+.header {
+	min-height: 480px;
+}
+
+.header > .col {
+	width: 90%;
+	padding: 10px;
+	margin: 0 auto;
+
+}
+
+
+.col > h1,h3,h4,h5 {
+	text-align: center;
+	letter-spacing: 2px;
+
+
+}
+
+.col > h3 {
+	font-size: 18px;
+	font-family: Arial;
+	text-decoration: underline;
+	margin-bottom: 150px;
+	color: white;
+}
+
+.col > h1 {
+	font-family: 'alba';
+	font-size: 40px;
+	margin-bottom: 10px;
+	margin-top: 100px;
+	color: yellow;
+	font-weight: bolder;
+}
+
+.col > h4, h5 {
+	color: white;
+	font-family: serif;
+	font-style: italic;
+}
+
+.col > h5 {
+	margin-bottom: 70px;
+	text-indent: 60px;
+}
+
+.header > .nav {
+	width: 90%;
+	padding: 30px 70px 30px 70px;
+	margin: 0 auto;
+	text-align: center;			
+}
+
+
+
+.nav > button > a {
+	font-weight: bold;
+	font-family: 'alba';
+	font-size: 24px;
+	color: white;
+	letter-spacing: 2px;
+
+}
+
+.navbar {
+	border: 1px solid yellow;
+}
+
+.form-control {
+	height: 25px;
+	border-radius: 0;
+}
+
+.btn {
+	padding: 2px 12px;
+	border-radius: 0;
+}
+
+.main {
+	background-color: #ff6;
+	min-height: 600px;
+	clear: both;
+}
+
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.left {
+	min-height: 600px;
+	background-color: #ff6;
+	padding: 10px;
+}
+
+.left > img {
+/*	margin-left: 40px;
+*/	margin-top: 20px;
+}
+
+.sidebar {
+	height: 300px;
+	background-color: orange;
+	padding: 10px;
+	border: 3px solid black;
+}
+
+.member {
+	height: 300px;
+	background-color: salmon;
+	padding: 10px;
+	border: 3px solid black;
+}
+
+
+.column1 {
+	width: 206px;
+	height: auto;
+	margin-top: 40px;
+	margin-left: 40px;
+	background-color: white;
+	border: 3px solid white;
+	float: left;
+	position: relative;
+}
+
+
+.text1 {
+	width: 375px;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+
+}
+
+.text1 > h2 {
+	margin-bottom: 40px;
+	font-size: 28px;
+	font-family: 'alba';
+}
+
+.text1 > p {
+	text-indent: 30px;
+	margin-bottom: 10px;
+	font-family: Arial;
+}
+
+.text1 > a {
+	font-size: 12px;
+	margin-left: 170px;
+}
+
+
+
+
+.article {
+	background-color: lightgreen;
+	border: 3px solid black;
+	height: 201px;
+}
+
+.footer > .col {
+	text-align: center;
+	margin: 3px;
+}
+
+.col > a {
+	font-weight: bold;
+	font-size: 16px;
+	color: white;
+	letter-spacing: 2px;
+	margin-bottom: 100px;	
+}
+
+span {
+	font-family: 'alba'
+}
+
+.sidebar > h3 {
+	margin-top: -5px;
+	text-align: left;
+
+}
+
+.sidebar > ul > li {
+	margin-left: 10px;
+}
+
+.member > h3 {
+	margin-top: -5px;
+	text-align: left;
+}
