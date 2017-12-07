@@ -15,8 +15,8 @@ body {
 	background-attachment: fixed;
 }
 
-.container {
-	width: 80%;
+.container-fluid {
+	width: 95%;
 	height: auto;
 	margin: 0 auto;
 
@@ -33,8 +33,8 @@ body {
 }
 
 .btn {
-	padding: 2px 12px;
-	border-radius: 0;
+	padding: 5px 15px;
+	border-radius: 10px;
 }
 
 .navbar {
@@ -45,22 +45,54 @@ body {
 	text-align: center;
 }
 
-.row > .col-sm-12 {
-	background-color: gray;
-	width: auto;
-	height: auto;
-	color: white;
-	opacity: 0.9;
-}
-
-.col-sm-12 > h1 {
-	margin-bottom: 20px;
+.page-header > h1 {
 	font-family: 'alba';
+	text-align: center;
+	color: yellow;
 }
 
-.footer > .col {
+.page-header > p {
+	color: white;
+	font-size: 18px;
+}
+
+
+.col-md-12 > img {
+	margin-top: 20px;
+	float: left;
+	position: relative;
+	border-radius: 5%;
+}
+
+.page-body > form {
+	margin-left: 30px;
+	margin-top: 25px;
+	color: white;
+}
+
+.footer {
+	width: 100%;
+	height: auto;
+	background-color: #000;
+	bottom: 0;
+}
+
+
+.footer > p {
+	font-family: 'alba';
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+}
+
+.footer > .col, .social {
 	text-align: center;
 	margin: 3px;
+}
+
+.social > a > img {
+	width: 50px;
+	height: 50px;
 }
 
 .col > a {
@@ -71,6 +103,8 @@ body {
 	margin-bottom: 100px;	
 }
 
+
 span {
-	font-family: 'alba'
+	font-family: 'alba';
+	color: #fff;
 }
