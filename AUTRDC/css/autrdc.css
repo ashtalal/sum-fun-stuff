@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Exo 2', sans-serif;
+}
+
+body {
+	background-color: #fff;
+}
+
+.navbar-default {
+	background-color: lightblue;
+	border: 1px solid blue;
+}
+
+.container-fluid {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 20px auto;
+	margin-right: 20px auto;
+	background-color: #fff;
+}
+
+.banner > .text-banner {
+	position: absolute;
+}
+
+.text-banner {
+	top: 150px;
+	left: 10%;
+	right: 10%;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*h4 {
+	top: 280px;
+	left: 10%;
+	right: 10%;
+	text-align: center;
+	font-weight: bold;
+
+}*/
+
+h3	 {
+	text-align: center;
+}
+
+.credentials {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.credentials > img {
+	width: 70%;
+	margin: 0 auto;
+	/*padding-left: 30px;
+	padding-right: 30px;*/
+}
+
+img#about {
+	padding-left: 20px;
+	width: 500px;
+	height: 400px;
+	margin-bottom: 10px;
+
+}
+
+.col-lg-6 > p {
+	margin-right: 20px;
+	font-size: 18px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.contact > a > img {
+	width: 50px;
+	height: 50px;
+
+}
+
+.contact > a > img#twitter {
+	width: 45px;
+	height: 45px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
