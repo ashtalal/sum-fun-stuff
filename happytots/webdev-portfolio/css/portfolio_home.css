@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'disguise';
+}
+
+body {
+	background-image: url('../img/geometric.jpg');
+	background-attachment: fixed;
+
+
+}
+
+@font-face {
+	font-family: 'disguise';
+	src: url('../fonts/Blessing in Disguise Regular.otf');
+}
+
+@font-face {
+	font-family: 'alba';
+  	src: url('../fonts/Alba.TTF');
+}
+
+.container {
+	width: 80%;
+	height: auto;
+	border-top: 30px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	border-radius: 10px;
+	background-image: url('../img/pink.jpg');
+	box-shadow: 10px 10px 10px #000;
+
+}
+
+.navbar-right, .navbar-brand {
+	font-size: 24px;
+	color: lavender;
+}
+
+
+.about > img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 3px solid lavender;
+	position: relative;
+}
+
+h2, h4, .contact {
+	text-align: center;
+	position: relative;
+}
+
+
+.contact > a > i {
+	width: 30px;
+	height: 30px;
+	padding
+	: 10px;
+}
+
+.about > p {
+	font-size: 24px;
+	text-align: left;
+	text-indent: 30px;
+
+}
+
+.skills {
+	font-size: 24px;
+	color: lavender;
+}
+
+.projects > .Capstone {
+	padding-bottom: 50px;
+}
+
+.email > p {
+	font-size: 24px;
+	color: lavender;
+}
+
+.email > h2 {
+	color: lavender;
+}
+	
+
+
+
+
+
+
